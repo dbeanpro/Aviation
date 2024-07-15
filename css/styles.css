@@ -65,3 +65,14 @@ ul {
 .subOne {
     padding-left: 3rem;
 }
+
+.hide {
+    display: none;
+    visibility: hidden;
+}
+
+ul li:hover {
+    font-weight: bold;
+    color: rgb(33, 3, 145);
+    cursor: pointer;
+}
