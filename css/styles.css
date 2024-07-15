@@ -71,7 +71,7 @@ ul {
     visibility: hidden;
 }
 
-ul li:hover {
+ul li:not(.exclude):hover {
     font-weight: bold;
     color: rgb(33, 3, 145);
     cursor: pointer;
